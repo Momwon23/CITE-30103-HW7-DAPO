@@ -12,7 +12,7 @@ int main () {
 
 	printf("Enter a number: "); 
 	scanf("%d", &n); 
-// to prove a number is prime you need to prove that it divisible by any number other than itslef and 1.
+// to prove a number is prime you need to prove that its not divisible by any number other than itslef and 1.
 
 	if(primeChecker(n) ==1 )
 		printf("Prime!!\n"); // if we get 1 as the output after we checked if the number is prime it proves that the number is prime if not it does the opposite and prints NOT prime.
