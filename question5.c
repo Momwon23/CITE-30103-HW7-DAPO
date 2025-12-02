@@ -12,10 +12,7 @@ long result;
 	scanf("%d", &input );
 		 
 result= factorial (input);
-if (input<0 ) { 
-	printf("Error...");
-}else {
-printf("Factorial of %d is: %ld\n",input, factorial(input)); }
+printf("Factorial of %d is %ld");
 return 0; // meaning code ended succesfully.
 	}
 
